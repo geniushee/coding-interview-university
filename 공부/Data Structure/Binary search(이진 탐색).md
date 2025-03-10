@@ -442,3 +442,8 @@ def findKthNumber(m: int, n: int, k: int) -> int:
 
 이후에는 적용과 증명의 연속으로 다소 비슷함.
 
+# Binary Search in 4 minutes
+Search algorithm to find a target value in a sorted array. with each iteration, half the values are eliminated.
+
+\[1,4,5,7,9,12,15,18,19,22,25,29,50]이라는 배열이 있을 때, 타겟이 12라면 첫 탐색에서 mid값인 6번째 값을 확인한다. 15는 타겟보다 크므로 6번째 이후의 값을 제거한다.(답이 아니므로) \[1,4,5,7,9,12] 그리고 right를 5번째로 변경한다. 다시 mid인 2번째를 확인한다. 5는 12보다 작으므로 left를 3번째로 변경하고 2번째 이하는 제거한다. 다시 mid를 확인한다. 9는 12보다 작으므로 left를 5번째로 변경한다. \[12] left, right, mid값이 모두 동일해졌다. 타겟값이다. 
+![[binary search example.png]]
