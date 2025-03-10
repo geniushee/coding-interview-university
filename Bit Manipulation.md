@@ -13,5 +13,18 @@ AND - Only true if both input bits are true.
 1 & 1 = 1
 
 OR
+0 | 0 = 0
+1 | 0 = 1
+0 | 1 = 1
+1 | 1 = 1
 
+NOT
+~0 = 1
+~1 = 0
+
+XOR
+0 ^ 0 = 0
+1 ^ 0 = 1
+0 ^ 1 = 1
+1 ^ 1 = 0
 ```
